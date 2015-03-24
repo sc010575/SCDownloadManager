@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C50CB9E51ABECE3100A755F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C50CB9E41ABECE3100A755F9 /* main.m */; };
+		C50CB9E81ABECE3100A755F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C50CB9E71ABECE3100A755F9 /* AppDelegate.m */; };
+		C50CB9EB1ABECE3100A755F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C50CB9EA1ABECE3100A755F9 /* ViewController.m */; };
+		C50CB9EE1ABECE3100A755F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C50CB9EC1ABECE3100A755F9 /* Main.storyboard */; };
+		C50CB9F01ABECE3100A755F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C50CB9EF1ABECE3100A755F9 /* Images.xcassets */; };
+		C50CB9F31ABECE3100A755F9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C50CB9F11ABECE3100A755F9 /* LaunchScreen.xib */; };
+		C50CB9FF1ABECE3100A755F9 /* SCDownloadManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C50CB9FE1ABECE3100A755F9 /* SCDownloadManagerTests.m */; };
+		C50CBA101ABECEFF00A755F9 /* Dropbox.m in Sources */ = {isa = PBXBuildFile; fileRef = C50CBA0D1ABECEFF00A755F9 /* Dropbox.m */; };
+		C50CBA111ABECEFF00A755F9 /* OAuthLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C50CBA0F1ABECEFF00A755F9 /* OAuthLoginViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C50CB9F91ABECE3100A755F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C50CB9D71ABECE3100A755F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C50CB9DE1ABECE3100A755F9;
+			remoteInfo = SCDownloadManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C50CB9DF1ABECE3100A755F9 /* SCDownloadManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCDownloadManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C50CB9E31ABECE3100A755F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C50CB9E41ABECE3100A755F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C50CB9E61ABECE3100A755F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C50CB9E71ABECE3100A755F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C50CB9E91ABECE3100A755F9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C50CB9EA1ABECE3100A755F9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C50CB9ED1ABECE3100A755F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C50CB9EF1ABECE3100A755F9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C50CB9F21ABECE3100A755F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C50CB9F81ABECE3100A755F9 /* SCDownloadManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCDownloadManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C50CB9FD1ABECE3100A755F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C50CB9FE1ABECE3100A755F9 /* SCDownloadManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCDownloadManagerTests.m; sourceTree = "<group>"; };
+		C50CBA0C1ABECEFF00A755F9 /* Dropbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dropbox.h; sourceTree = "<group>"; };
+		C50CBA0D1ABECEFF00A755F9 /* Dropbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dropbox.m; sourceTree = "<group>"; };
+		C50CBA0E1ABECEFF00A755F9 /* OAuthLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthLoginViewController.h; sourceTree = "<group>"; };
+		C50CBA0F1ABECEFF00A755F9 /* OAuthLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAuthLoginViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C50CB9DC1ABECE3100A755F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C50CB9F51ABECE3100A755F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C50CB9D61ABECE3100A755F9 = {
+			isa = PBXGroup;
+			children = (
+				C50CB9E11ABECE3100A755F9 /* SCDownloadManager */,
+				C50CB9FB1ABECE3100A755F9 /* SCDownloadManagerTests */,
+				C50CB9E01ABECE3100A755F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C50CB9E01ABECE3100A755F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C50CB9DF1ABECE3100A755F9 /* SCDownloadManager.app */,
+				C50CB9F81ABECE3100A755F9 /* SCDownloadManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C50CB9E11ABECE3100A755F9 /* SCDownloadManager */ = {
+			isa = PBXGroup;
+			children = (
+				C50CBA091ABECE7900A755F9 /* SCDownLoadManager */,
+				C50CBA081ABECE4700A755F9 /* Example */,
+			);
+			path = SCDownloadManager;
+			sourceTree = "<group>";
+		};
+		C50CB9E21ABECE3100A755F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C50CB9E31ABECE3100A755F9 /* Info.plist */,
+				C50CB9E41ABECE3100A755F9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C50CB9FB1ABECE3100A755F9 /* SCDownloadManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C50CB9FE1ABECE3100A755F9 /* SCDownloadManagerTests.m */,
+				C50CB9FC1ABECE3100A755F9 /* Supporting Files */,
+			);
+			path = SCDownloadManagerTests;
+			sourceTree = "<group>";
+		};
+		C50CB9FC1ABECE3100A755F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C50CB9FD1ABECE3100A755F9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C50CBA081ABECE4700A755F9 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				C50CB9E21ABECE3100A755F9 /* Supporting Files */,
+				C50CBA0B1ABECEFF00A755F9 /* DropBox */,
+				C50CB9EF1ABECE3100A755F9 /* Images.xcassets */,
+				C50CB9F11ABECE3100A755F9 /* LaunchScreen.xib */,
+				C50CB9E61ABECE3100A755F9 /* AppDelegate.h */,
+				C50CB9E71ABECE3100A755F9 /* AppDelegate.m */,
+				C50CB9E91ABECE3100A755F9 /* ViewController.h */,
+				C50CB9EA1ABECE3100A755F9 /* ViewController.m */,
+				C50CB9EC1ABECE3100A755F9 /* Main.storyboard */,
+			);
+			name = Example;
+			sourceTree = "<group>";
+		};
+		C50CBA091ABECE7900A755F9 /* SCDownLoadManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SCDownLoadManager;
+			sourceTree = "<group>";
+		};
+		C50CBA0B1ABECEFF00A755F9 /* DropBox */ = {
+			isa = PBXGroup;
+			children = (
+				C50CBA0C1ABECEFF00A755F9 /* Dropbox.h */,
+				C50CBA0D1ABECEFF00A755F9 /* Dropbox.m */,
+				C50CBA0E1ABECEFF00A755F9 /* OAuthLoginViewController.h */,
+				C50CBA0F1ABECEFF00A755F9 /* OAuthLoginViewController.m */,
+			);
+			path = DropBox;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C50CB9DE1ABECE3100A755F9 /* SCDownloadManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C50CBA021ABECE3100A755F9 /* Build configuration list for PBXNativeTarget "SCDownloadManager" */;
+			buildPhases = (
+				C50CB9DB1ABECE3100A755F9 /* Sources */,
+				C50CB9DC1ABECE3100A755F9 /* Frameworks */,
+				C50CB9DD1ABECE3100A755F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCDownloadManager;
+			productName = SCDownloadManager;
+			productReference = C50CB9DF1ABECE3100A755F9 /* SCDownloadManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C50CB9F71ABECE3100A755F9 /* SCDownloadManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C50CBA051ABECE3100A755F9 /* Build configuration list for PBXNativeTarget "SCDownloadManagerTests" */;
+			buildPhases = (
+				C50CB9F41ABECE3100A755F9 /* Sources */,
+				C50CB9F51ABECE3100A755F9 /* Frameworks */,
+				C50CB9F61ABECE3100A755F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C50CB9FA1ABECE3100A755F9 /* PBXTargetDependency */,
+			);
+			name = SCDownloadManagerTests;
+			productName = SCDownloadManagerTests;
+			productReference = C50CB9F81ABECE3100A755F9 /* SCDownloadManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C50CB9D71ABECE3100A755F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Suman Chatterjee";
+				TargetAttributes = {
+					C50CB9DE1ABECE3100A755F9 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					C50CB9F71ABECE3100A755F9 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = C50CB9DE1ABECE3100A755F9;
+					};
+				};
+			};
+			buildConfigurationList = C50CB9DA1ABECE3100A755F9 /* Build configuration list for PBXProject "SCDownloadManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C50CB9D61ABECE3100A755F9;
+			productRefGroup = C50CB9E01ABECE3100A755F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C50CB9DE1ABECE3100A755F9 /* SCDownloadManager */,
+				C50CB9F71ABECE3100A755F9 /* SCDownloadManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C50CB9DD1ABECE3100A755F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C50CB9EE1ABECE3100A755F9 /* Main.storyboard in Resources */,
+				C50CB9F31ABECE3100A755F9 /* LaunchScreen.xib in Resources */,
+				C50CB9F01ABECE3100A755F9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C50CB9F61ABECE3100A755F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C50CB9DB1ABECE3100A755F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C50CB9EB1ABECE3100A755F9 /* ViewController.m in Sources */,
+				C50CB9E81ABECE3100A755F9 /* AppDelegate.m in Sources */,
+				C50CBA101ABECEFF00A755F9 /* Dropbox.m in Sources */,
+				C50CBA111ABECEFF00A755F9 /* OAuthLoginViewController.m in Sources */,
+				C50CB9E51ABECE3100A755F9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C50CB9F41ABECE3100A755F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C50CB9FF1ABECE3100A755F9 /* SCDownloadManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C50CB9FA1ABECE3100A755F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C50CB9DE1ABECE3100A755F9 /* SCDownloadManager */;
+			targetProxy = C50CB9F91ABECE3100A755F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C50CB9EC1ABECE3100A755F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C50CB9ED1ABECE3100A755F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C50CB9F11ABECE3100A755F9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C50CB9F21ABECE3100A755F9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C50CBA001ABECE3100A755F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C50CBA011ABECE3100A755F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C50CBA031ABECE3100A755F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SCDownloadManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C50CBA041ABECE3100A755F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SCDownloadManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C50CBA061ABECE3100A755F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SCDownloadManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SCDownloadManager.app/SCDownloadManager";
+			};
+			name = Debug;
+		};
+		C50CBA071ABECE3100A755F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SCDownloadManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SCDownloadManager.app/SCDownloadManager";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C50CB9DA1ABECE3100A755F9 /* Build configuration list for PBXProject "SCDownloadManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C50CBA001ABECE3100A755F9 /* Debug */,
+				C50CBA011ABECE3100A755F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C50CBA021ABECE3100A755F9 /* Build configuration list for PBXNativeTarget "SCDownloadManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C50CBA031ABECE3100A755F9 /* Debug */,
+				C50CBA041ABECE3100A755F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C50CBA051ABECE3100A755F9 /* Build configuration list for PBXNativeTarget "SCDownloadManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C50CBA061ABECE3100A755F9 /* Debug */,
+				C50CBA071ABECE3100A755F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C50CB9D71ABECE3100A755F9 /* Project object */;
+}
