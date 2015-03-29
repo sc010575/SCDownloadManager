@@ -19,6 +19,7 @@
 		C50CBA101ABECEFF00A755F9 /* Dropbox.m in Sources */ = {isa = PBXBuildFile; fileRef = C50CBA0D1ABECEFF00A755F9 /* Dropbox.m */; };
 		C50CBA111ABECEFF00A755F9 /* OAuthLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C50CBA0F1ABECEFF00A755F9 /* OAuthLoginViewController.m */; };
 		C5EE560A1AC8654E003057E3 /* AvailableDownloadsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EE56091AC8654E003057E3 /* AvailableDownloadsCell.m */; };
+		C5EE560D1AC8691F003057E3 /* SCDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EE560C1AC8691F003057E3 /* SCDownloadManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		C50CBA0F1ABECEFF00A755F9 /* OAuthLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAuthLoginViewController.m; sourceTree = "<group>"; };
 		C5EE56081AC8654E003057E3 /* AvailableDownloadsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvailableDownloadsCell.h; sourceTree = "<group>"; };
 		C5EE56091AC8654E003057E3 /* AvailableDownloadsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvailableDownloadsCell.m; sourceTree = "<group>"; };
+		C5EE560B1AC8691F003057E3 /* SCDownloadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCDownloadManager.h; sourceTree = "<group>"; };
+		C5EE560C1AC8691F003057E3 /* SCDownloadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCDownloadManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +161,8 @@
 		C50CBA091ABECE7900A755F9 /* SCDownLoadManager */ = {
 			isa = PBXGroup;
 			children = (
+				C5EE560B1AC8691F003057E3 /* SCDownloadManager.h */,
+				C5EE560C1AC8691F003057E3 /* SCDownloadManager.m */,
 			);
 			name = SCDownLoadManager;
 			sourceTree = "<group>";
@@ -289,6 +294,7 @@
 				C50CBA111ABECEFF00A755F9 /* OAuthLoginViewController.m in Sources */,
 				C50CB9E51ABECE3100A755F9 /* main.m in Sources */,
 				C5EE560A1AC8654E003057E3 /* AvailableDownloadsCell.m in Sources */,
+				C5EE560D1AC8691F003057E3 /* SCDownloadManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
