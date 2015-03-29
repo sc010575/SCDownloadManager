@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C504BE6E1AC4BCD8001B47F0 /* SCUtilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C504BE6D1AC4BCD8001B47F0 /* SCUtilityManager.m */; };
+		C504BE6F1AC4BCD8001B47F0 /* SCUtilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C504BE6D1AC4BCD8001B47F0 /* SCUtilityManager.m */; };
 		C50CB9E51ABECE3100A755F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C50CB9E41ABECE3100A755F9 /* main.m */; };
 		C50CB9E81ABECE3100A755F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C50CB9E71ABECE3100A755F9 /* AppDelegate.m */; };
 		C50CB9EB1ABECE3100A755F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C50CB9EA1ABECE3100A755F9 /* ViewController.m */; };
@@ -16,6 +18,7 @@
 		C50CB9FF1ABECE3100A755F9 /* SCDownloadManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C50CB9FE1ABECE3100A755F9 /* SCDownloadManagerTests.m */; };
 		C50CBA101ABECEFF00A755F9 /* Dropbox.m in Sources */ = {isa = PBXBuildFile; fileRef = C50CBA0D1ABECEFF00A755F9 /* Dropbox.m */; };
 		C50CBA111ABECEFF00A755F9 /* OAuthLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C50CBA0F1ABECEFF00A755F9 /* OAuthLoginViewController.m */; };
+		C5EE560A1AC8654E003057E3 /* AvailableDownloadsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EE56091AC8654E003057E3 /* AvailableDownloadsCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C504BE6C1AC4BCD8001B47F0 /* SCUtilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCUtilityManager.h; sourceTree = "<group>"; };
+		C504BE6D1AC4BCD8001B47F0 /* SCUtilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCUtilityManager.m; sourceTree = "<group>"; };
+		C504BE701AC4C03A001B47F0 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		C50CB9DF1ABECE3100A755F9 /* SCDownloadManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCDownloadManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C50CB9E31ABECE3100A755F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C50CB9E41ABECE3100A755F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -46,6 +52,8 @@
 		C50CBA0D1ABECEFF00A755F9 /* Dropbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dropbox.m; sourceTree = "<group>"; };
 		C50CBA0E1ABECEFF00A755F9 /* OAuthLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthLoginViewController.h; sourceTree = "<group>"; };
 		C50CBA0F1ABECEFF00A755F9 /* OAuthLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAuthLoginViewController.m; sourceTree = "<group>"; };
+		C5EE56081AC8654E003057E3 /* AvailableDownloadsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvailableDownloadsCell.h; sourceTree = "<group>"; };
+		C5EE56091AC8654E003057E3 /* AvailableDownloadsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvailableDownloadsCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +74,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C504BE6B1AC4BC1C001B47F0 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				C504BE6C1AC4BCD8001B47F0 /* SCUtilityManager.h */,
+				C504BE6D1AC4BCD8001B47F0 /* SCUtilityManager.m */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
 		C50CB9D61ABECE3100A755F9 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +104,7 @@
 		C50CB9E11ABECE3100A755F9 /* SCDownloadManager */ = {
 			isa = PBXGroup;
 			children = (
+				C504BE6B1AC4BC1C001B47F0 /* Utility */,
 				C50CBA091ABECE7900A755F9 /* SCDownLoadManager */,
 				C50CBA081ABECE4700A755F9 /* Example */,
 			);
@@ -98,6 +116,7 @@
 			children = (
 				C50CB9E31ABECE3100A755F9 /* Info.plist */,
 				C50CB9E41ABECE3100A755F9 /* main.m */,
+				C504BE701AC4C03A001B47F0 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -122,6 +141,7 @@
 		C50CBA081ABECE4700A755F9 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				C5EE56071AC8650D003057E3 /* TableViewCell */,
 				C50CB9E21ABECE3100A755F9 /* Supporting Files */,
 				C50CBA0B1ABECEFF00A755F9 /* DropBox */,
 				C50CB9EF1ABECE3100A755F9 /* Images.xcassets */,
@@ -151,6 +171,15 @@
 				C50CBA0F1ABECEFF00A755F9 /* OAuthLoginViewController.m */,
 			);
 			path = DropBox;
+			sourceTree = "<group>";
+		};
+		C5EE56071AC8650D003057E3 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				C5EE56081AC8654E003057E3 /* AvailableDownloadsCell.h */,
+				C5EE56091AC8654E003057E3 /* AvailableDownloadsCell.m */,
+			);
+			name = TableViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,9 +284,11 @@
 			files = (
 				C50CB9EB1ABECE3100A755F9 /* ViewController.m in Sources */,
 				C50CB9E81ABECE3100A755F9 /* AppDelegate.m in Sources */,
+				C504BE6E1AC4BCD8001B47F0 /* SCUtilityManager.m in Sources */,
 				C50CBA101ABECEFF00A755F9 /* Dropbox.m in Sources */,
 				C50CBA111ABECEFF00A755F9 /* OAuthLoginViewController.m in Sources */,
 				C50CB9E51ABECE3100A755F9 /* main.m in Sources */,
+				C5EE560A1AC8654E003057E3 /* AvailableDownloadsCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C504BE6F1AC4BCD8001B47F0 /* SCUtilityManager.m in Sources */,
 				C50CB9FF1ABECE3100A755F9 /* SCDownloadManagerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,6 +354,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/DropNews-PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -363,6 +396,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/DropNews-PrefixHeader.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -381,6 +415,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = SCDownloadManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -391,6 +427,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = SCDownloadManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -405,6 +443,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -424,6 +463,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = SCDownloadManagerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -450,6 +490,7 @@
 				C50CBA041ABECE3100A755F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C50CBA051ABECE3100A755F9 /* Build configuration list for PBXNativeTarget "SCDownloadManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -458,6 +499,7 @@
 				C50CBA071ABECE3100A755F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -10,6 +10,8 @@
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+
 @end
 
 @implementation ViewController
