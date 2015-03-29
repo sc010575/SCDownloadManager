@@ -12,4 +12,6 @@
 
 @property (weak, nonatomic) IBOutlet UIButton *installBtn;
 
+- (void)setupCellWithText:(NSString*)text;
+
 @end

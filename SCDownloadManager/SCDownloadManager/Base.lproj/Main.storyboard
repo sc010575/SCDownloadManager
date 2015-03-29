@@ -70,7 +70,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="50" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="qmv-FW-8gc">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <rect key="frame" x="0.0" y="40" width="600" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AvailableDownloadsCell" rowHeight="50" id="Foh-sa-HwR" customClass="AvailableDownloadsCell">
@@ -80,13 +80,13 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZRf-ZH-VmU">
-                                                    <rect key="frame" x="28" y="5" width="464" height="32.5"/>
+                                                    <rect key="frame" x="28" y="5" width="264" height="32.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iUl-TP-RYi">
-                                                    <rect key="frame" x="546" y="5" width="46" height="30"/>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iUl-TP-RYi">
+                                                    <rect key="frame" x="312" y="8" width="41" height="30"/>
                                                     <state key="normal" title="Install">
                                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                     </state>
@@ -96,13 +96,16 @@
                                                 </button>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstItem="iUl-TP-RYi" firstAttribute="top" secondItem="spJ-dN-tcn" secondAttribute="topMargin" id="1PE-t8-suc"/>
                                                 <constraint firstItem="ZRf-ZH-VmU" firstAttribute="top" secondItem="spJ-dN-tcn" secondAttribute="topMargin" constant="-3" id="FRS-Yn-eK4"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="ZRf-ZH-VmU" secondAttribute="bottom" constant="4" id="a6t-Of-4Bd"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="ZRf-ZH-VmU" secondAttribute="trailing" constant="100" id="hCv-eN-ctI"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="ZRf-ZH-VmU" secondAttribute="trailing" constant="300" id="hCv-eN-ctI"/>
                                                 <constraint firstItem="ZRf-ZH-VmU" firstAttribute="leading" secondItem="spJ-dN-tcn" secondAttribute="leadingMargin" constant="20" id="rLq-b4-M4g"/>
+                                                <constraint firstItem="iUl-TP-RYi" firstAttribute="leading" secondItem="ZRf-ZH-VmU" secondAttribute="trailing" constant="20" id="z6K-uf-8vS"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="fileName" destination="ZRf-ZH-VmU" id="He6-L5-u95"/>
                                             <outlet property="installBtn" destination="iUl-TP-RYi" id="Xj4-Eb-7sj"/>
                                         </connections>
                                     </tableViewCell>

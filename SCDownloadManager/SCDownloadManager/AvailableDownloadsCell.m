@@ -9,6 +9,7 @@
 #import "AvailableDownloadsCell.h"
 
 @interface AvailableDownloadsCell()
+@property (weak, nonatomic) IBOutlet UILabel *fileName;
 
 - (IBAction)startInstall:(id)sender;
 
@@ -25,6 +26,12 @@
     [super setSelected:selected animated:animated];
 
     // Configure the view for the selected state
+}
+
+- (void)setupCellWithText:(NSString*)text
+{
+    self.fileName.text = text;
+    
 }
 
 - (IBAction)startInstall:(id)sender {

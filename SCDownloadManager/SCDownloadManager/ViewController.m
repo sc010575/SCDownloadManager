@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "SCUtilityManager.h"
+#import "AvailableDownloadsCell.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -46,10 +47,8 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *cellIdentifier = @"AvailableDownloadsCell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
-    
-    [cell.textLabel setText:[[[self.availableDownloadsArray objectAtIndex:indexPath.row] componentsSeparatedByString:@"/"] lastObject]];
-    
+    AvailableDownloadsCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier forIndexPath:indexPath];
+    [cell setupCellWithText:[[[self.availableDownloadsArray objectAtIndex:indexPath.row] componentsSeparatedByString:@"/"] lastObject]];
     return cell;
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
