@@ -35,5 +35,6 @@
 }
 
 - (IBAction)startInstall:(id)sender {
+    NSLog(@"startInstall pressed");
 }
 @end
